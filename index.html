@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="main-input">
+                <h3>Metric/Imperial Unit Conversion</h3>
+                <input type="number" id="input-number">
+                <button id="convert-btn">convert</button>
+            </div>
+            <div id="display">
+                <ul id="result-list">
+                    <li>
+                        <div class="result-card-1">
+                            <p id="converted-title">Length (Meter/Feet)</p>
+                            <p id="length-result"></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="result-card-2">
+                            <p id="converted-title">Volume (Liters/Gallons)</p>
+                            <p id="volume-result"></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="result-card-3">
+                            <p id="converted-title">Mass (Kilograms/Pounds)</p>
+                            <p id="mass-result"></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
